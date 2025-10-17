@@ -1,0 +1,8 @@
+*.o
+*.out
+.vscode/
+_pycache_/
+.DS_Store
+*.swp
+*~
+*.zip
