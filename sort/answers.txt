@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: The runtime increased rapidly with input size(O(n^2)) and perfoms slightly faster on already sorted data but slower on reversed data, which is characteristic of bubble sort with an early exit optimization.
+
+sort2 uses: Merge sort
+
+How do you know?: Shows much faster runtimes (O(n log n)) and performs consistently acraoss random, reversed, and sorted inputs, indicating a divide-and-conquer algorithm such as merge sort.
+
+sort3 uses: Selection sort
+
+How do you know?: Has quadratic growth (O(n^2)) similar to sort1 but with no improvement for sorted data, matching the behaviour of selection sort, which always performs the same number of operations regardless of input order.
